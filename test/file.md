@@ -1,0 +1,5 @@
+- 파일을 직접 열고 닫으면서 읽거나 쓰기
+  - 파일 열고 : open(path, flags, [, mode] [, callback])
+  - 내용 읽고 : read(fd, buffer, offset, length, position [, callback])
+  - 내용 쓰고 : write(fd, buffer, offset, length, position [, callback])
+  - 파일 닫고 : close(fd, [, callback])
