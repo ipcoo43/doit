@@ -14,7 +14,6 @@
   - timeEnd(id) : 실행 시간을 측정하기 위한 끝 시간을 기록 한다.
 
 - 코드 실행한 시간 측정하기
-
 <pre>
 <code>
   var result = 0
@@ -26,3 +25,15 @@
   console.log('1부터 1000까지 더한 결과물 : %d', result)
 </code>
 </pre>
+
+- 실행한 파일 이름과 객체 정보 출력
+  - __filename, __dirname 전역 변수 사용하여 파일 이름 출력
+  - console.dir() 이용하여 객체 정보 출력
+  - 자바스크립트 객체는 {}를 이용하여 만들고  
+  - 형태는 {속성이름:속성값, 속성이름:속성값}
+<pre><code>
+console.log('현재 실행한 파일의 이름 : %s', __filename)
+console.log('현재 실행한 파일의 패스 : %s', __dirname)
+var Person = {name:'console', age:20}
+console.dir(Person)
+</code></pre>
