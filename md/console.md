@@ -14,10 +14,15 @@
   - timeEnd(id) : 실행 시간을 측정하기 위한 끝 시간을 기록 한다.
 
 - 코드 실행한 시간 측정하기
-  - var result = 0
-  - console.time('duration_sum')
-  - for(var i=1; i<=100; i++){
-  -     result += i
-  - }
-  - console.timeEnd('duration_sum')
-  - console.log('1부터 1000까지 더한 결과물 : %d', result)
+
+<pre>
+<code>
+  var result = 0
+  console.time('duration_sum')
+  for(var i=1; i<=100; i++){
+    result += i
+  }
+  console.timeEnd('duration_sum')
+  console.log('1부터 1000까지 더한 결과물 : %d', result)
+</code>
+</pre>
